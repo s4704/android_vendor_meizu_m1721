@@ -159,7 +159,6 @@ PRODUCT_PACKAGES += \
     qdcm_calib_data_nili7807d_txdkj_1080p_video_mode_dsi_panel
 PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/meizu/m1721/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/meizu/m1721/proprietary/etc/camera/imx362_chromatix.xml:system/etc/camera/imx362_chromatix.xml \
     vendor/meizu/m1721/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
     vendor/meizu/m1721/proprietary/etc/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
