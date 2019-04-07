@@ -320,6 +320,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
