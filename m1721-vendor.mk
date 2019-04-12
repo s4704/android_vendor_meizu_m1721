@@ -173,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/meizu/m1721/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/meizu/m1721/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/meizu/m1721/proprietary/etc/permissions/com.meizu.camera.xml:system/etc/permissions/com.meizu.camera.xml \
     vendor/meizu/m1721/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/libImageClarity.so:system/lib/libImageClarity.so \
     vendor/meizu/m1721/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
@@ -428,6 +429,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal
+    libts_face_beautify_hal \
+    Camera \
+    com.meizu.camera
 PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/meizu/m1721/proprietary/bin/btnvtool:system/bin/btnvtool \
