@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/meizu/m1721/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/meizu/m1721/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/meizu/m1721/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/meizu/m1721/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/meizu/m1721/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
@@ -154,6 +155,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
+    colorservice \
+    com.qti.snapdragon.sdk.display \
     qdcm_calib_data_hx8399c_holitech_1080p_video_mode_dsi_panel \
     qdcm_calib_data_hx8399c_tcl_1080p_video_mode_dsi_panel \
     qdcm_calib_data_nili7807d_txdkj_1080p_video_mode_dsi_panel
@@ -502,7 +505,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/meizu/m1721/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/meizu/m1721/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/meizu/m1721/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/meizu/m1721/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/meizu/m1721/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/meizu/m1721/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
