@@ -59,11 +59,13 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/meizu/m1721/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/meizu/m1721/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
+    vendor/meizu/m1721/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/meizu/m1721/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/meizu/m1721/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/meizu/m1721/proprietary/lib64/hw/lights.msm8953.so:system/lib64/hw/lights.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/meizu/m1721/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     vendor/meizu/m1721/proprietary/lib64/libgf_algo.so:system/lib64/libgf_algo.so \
